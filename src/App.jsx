@@ -5,15 +5,19 @@ import { BrowserRouter } from 'react-router-dom'
 import Accordian from './Components/Accordian'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Services from './pages/Services'
+import AboutUs from './pages/AboutUs'
 
 function App() {
 return(
   <>
   
  <BrowserRouter>
- <Data/>
 
 
+{/* <Data/> */}
+ {/* <Services/> */}
+ <AboutUs/>
  </BrowserRouter>
 
 

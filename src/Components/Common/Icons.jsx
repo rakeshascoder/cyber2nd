@@ -78,6 +78,17 @@ export function Linkedinicon() {
     </div>
   )
 }
+export function TickIcon() {
+  return (
+    <div>
+ <svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 5.90977L11.1001 1L21.2002 5.90977L20.7548 14.3231C20.6359 16.5694 19.6228 18.6745 17.9416 20.1689L11.1001 26.2502L4.25861 20.1689C2.57741 18.6745 1.56433 16.5694 1.44541 14.3231L1 5.90977Z" stroke="black" stroke-width="1.68335"/>
+<path d="M6.0498 15.7046L9.26797 18.6752L16.9916 8.57507" stroke="black" stroke-width="1.68335" stroke-linecap="round"/>
+</svg>
+
+    </div>
+  )
+}
 
 
 

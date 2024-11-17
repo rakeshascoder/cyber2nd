@@ -98,3 +98,28 @@ height: 100%;
 .no-scroll {
     overflow: hidden;
   }
+
+
+.Services_hero_img{
+    background-image: url("./assets/Images/Png/ServicesBgimg.png");
+}
+
+.ourServie_hover{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .ourServie_hover:hover{
+    background-color: white;
+    transform: scale(1.05); 
+  }
+  .ourServie_hover:hover svg path{
+    fill: white;
+    transition: fill 0.3s ease;
+  }
+  .ourServie_hover:hover svg rect{
+    fill: #06579C;
+    stroke:#06579C;
+    transition: fill 0.3s ease, stroke 0.3s ease; 
+  }
+.CybersecurityPartner_Img{
+    background-image: url("./assets/Images/Png/CybersecurityPartner.png");
+}
