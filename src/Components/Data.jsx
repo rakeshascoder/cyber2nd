@@ -1,4 +1,5 @@
-import React, { useState,useEffect } from "react";
+/* eslint-disable react/no-unescaped-entities */
+import  { useState,useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 import {
@@ -26,11 +27,9 @@ import STSM from "../assets/Images/Png/STSM.png";
 import Wised from "../assets/Images/Png/Wised.png";
 import Namo from "../assets/Images/Png/Namo.png";
 import { Link } from "react-router-dom";
-import Accordions from "./Accordian";
 import Accordian from "./Accordian";
 import Slider from "react-slick";
 import { value } from "./Common/Helper";
-import { Hidden } from "@mui/material";
 import Contactpopup from "./Contactpopup";
 
 
@@ -206,14 +205,14 @@ export default function Data() {
                   } flex justify-center h-full sm:h-[100%] lg:relative transition-all duration-300 z-20`}
               >
                 {[
-                  { name: "Home", id: "home" },
-                  { name: "About us", id: "aboutSection" },
-                  { name: "Services", id: "services" },
-                  { name: "Clients", id: "clients" },
-                  { name: "Testimonials", id: "testimonials" },
+                  { name: "Home", id: "/" },
+                  { name: "About us", id: "/about-us" },
+                  { name: "Services", id: "/services" },
+                  { name: "Clients", id: "/clients" },
+                  { name: "Testimonials", id: "/testimonials" },
                 ].map((item) => (
                   <li key={item.name}>
-                    <ScrollLink
+                    <Link
                       to={item.id}
                       smooth={true}
                       duration={1000}
@@ -221,7 +220,7 @@ export default function Data() {
                       onClick={() => setIsNavbaropen(false)}
                     >
                       {item.name}
-                    </ScrollLink>
+                    </Link>
                   </li>
                 ))}
                 <ul className="md:hidden flex flex-col gap-6">
@@ -872,7 +871,7 @@ export default function Data() {
                 <p className="text-white font_jacques font-normal text-[24px] leading-[31px] cursor-pointertext-white ff_Jacques_Francois">
                   Grey Token
                 </p>
-                <p className="opacity-[60%] text-white font_inter text-[14px] font-normal leading-[16px] mt-[30px] text-[#00000099]">
+                <p className="opacity-[60%] text-white ff_inter text-[14px] font-normal leading-[16px] mt-[30px] text-[#00000099]">
                   Cybersecurity is crucial in today's digital age, where many
                   individuals and organizations store a significant amount of
                   sensitive data on computers...
@@ -965,29 +964,29 @@ export default function Data() {
               </div>
 
               <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-3/12 mt-[50px] md:mt-0 lg:mt-0">
-                <p className="text-[#EE0000] font_inter font-medium text-[18px] leading-[21px] ff_inter ">
+                <p className="text-[#EE0000] ff_inter font-medium text-[18px] leading-[21px] ff_inter ">
                   Category
                 </p>
 
-                <p className="text-white font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
+                <p className="text-white ff_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[30px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
                   Tech Solutions
                 </p>
-                <p className="text-white font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
+                <p className="text-white ff_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
                   Digital Marketing
                 </p>
-                <p className="text-white font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
+                <p className="text-white ff_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
                   Web Development
                 </p>
-                <p className="text-white font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
+                <p className="text-white ff_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
                   IT Consulting
                 </p>
-                <p className="text-white font_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
+                <p className="text-white ff_inter font-normal text-[14px] leading-[16px] text-[#00000099] mt-[20px] cursor-pointer hover:translate-x-[20px] duration-500 ff_inter whitespace-nowrap">
                   Data Analytics
                 </p>
               </div>
 
               <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-3/12 mt-[50px] lg:mt-0">
-                <p className="font_inter font-medium text-[18px] leading-[21px] text-[#EE0000] ff_inter whitespace-nowrap">
+                <p className="ff_inter font-medium text-[18px] leading-[21px] text-[#EE0000] ff_inter whitespace-nowrap">
                   Quicks Links
                 </p>
 
@@ -1019,11 +1018,11 @@ export default function Data() {
               </div>
 
               <div className="xl:w-2/12 lg:w-3/12 md:w-5/12 sm:w-4/12 w-full mt-[50px] lg:mt-0">
-                <p className="font_inter font-medium text-[18px] leading-[21px] text-[#EE0000] ff_inter">
+                <p className="ff_inter font-medium text-[18px] leading-[21px] text-[#EE0000] ff_inter">
                   Subsribe
                 </p>
                 ff_inter
-                <p className="text-white font_inter font-normal text-[14px] leading-[16px] text-[#00000099]  cursor-pointer hover:translate-x-[20px] duration-500 opacity-[60%] ff_inter">
+                <p className="text-white ff_inter font-normal text-[14px] leading-[16px] text-[#00000099]  cursor-pointer hover:translate-x-[20px] duration-500 opacity-[60%] ff_inter">
                   Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate
                   enim tortor nulla facilisi magna. Aenean ac commodo nisi
                   vitae.
