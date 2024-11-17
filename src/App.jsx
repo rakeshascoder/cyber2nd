@@ -7,6 +7,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Services from './pages/Services'
 import AboutUs from './pages/AboutUs'
+import Clients from './Components/Clients'
+import Happy from './Components/Happy'
+import Clientfeeds from './Components/Clientfeeds'
 
 function App() {
 return(
@@ -17,7 +20,10 @@ return(
 
 {/* <Data/> */}
  {/* <Services/> */}
- <AboutUs/>
+ {/* <AboutUs/> */}
+ {/* <Clients/> */}
+ {/* <Happy/> */}
+ <Clientfeeds/>
  </BrowserRouter>
 
 
