@@ -14,6 +14,7 @@ import shadowImg from "../assets/Images/Png/about-partners-shadow.png";
 import ProfileImg from "../assets/Images/Png/Profile-img.png";
 import AlexaImg from "../assets/Images/Png/Alexa-img.png";
 import Footer from "../Components/Common/Footer";
+import Happy from "../Components/Happy";
 
 export default function AboutUs() {
   return (
@@ -412,6 +413,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <Happy/>
     <Footer/>
       
     </>

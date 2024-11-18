@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+
 import umbrella from "../assets/Images/Png/umbrella.png"
 import msp from "../assets/Images/Png/msp.png"
 import panda from "../assets/Images/Png/panda.png"
