@@ -6,7 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      
+      backgroundImage: {
+       
+        
+        'about_bg': "url('/src/assets/Images/Png/about-img.png')",
+        'our_team_Shadow': "url('/src/assets/Images/Png/our-team-shadow.png')",
+        'client_bg_img': "url('/src/assets/Images/Png/clients-bg-img.png')",
+      },
     },
   },
   plugins: [],

@@ -1,10 +1,14 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+
 import Man from "../assets/Images/Png/Man.png";
 import { cyberSafe } from "../Components/Common/Helper";
 import Slider from "react-slick";
 import BlackMan from "../assets/Images/Png/BlackMan.png";
 import Trusted from "../assets/Images/Png/Trusted.png";
 import Cybersecurity from "../assets/Images/Png/Cybersecurity.png";
+import SubHeader from "../Components/Common/SubHeader";
+import Header from "../Components/Common/Header";
+import Footer from "../Components/Common/Footer";
 
 export default function Services() {
   const settings = {
@@ -62,9 +66,14 @@ export default function Services() {
   };
   return (
     <>
-      {/* <header className="Services_hero_img w-full  bg-cover bg-no-repeat pt-[50px] md:pt-[70px] lg:pt-[100px] bg-center pb-[50px] md:pb-[70px] lg:pb-[100px] ">
+      <header className="Services_hero_img w-full  bg-cover bg-no-repeat bg-center pb-[50px] md:pb-[70px] lg:pb-[100px]  pt-5">
         <div className="container mx-auto px-2 lg:px-4 lg:max-w-[1360px] ">
-          <div className="flex flex-col justify-center items-center">
+        <div className="shadow-lg rounded-[20px] border  px-4 lg:px-6 bg-white py-4 lg:py-6">
+          {" "}
+          <SubHeader />
+          <Header />
+        </div>
+          <div className="flex flex-col justify-center items-center mt-14">
             <div className="flex items-center gap-[10px]">
               <div className="w-2 h-2 bg-[#EE0000] rounded-[50%]"></div>{" "}
               <p className=" text-[16px] lg:text-xl ff_inter text-white">
@@ -76,7 +85,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-      </header> */}
+      </header>
       <main>
         <section className="py-[50px] lg:py-[100px] overflow-x-hidden">
           <div className="container mx-auto px-2 lg:px-4 lg:max-w-[1360px]">
@@ -87,13 +96,13 @@ export default function Services() {
                     Service Overview
                   </p>
                   <p className="text-[12px] lg:text-sm ff_inter text-white mt-5 ">
-                    Lorem Ipsum is simply dummy text of the printing and
+                    Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
-                    standard Lorem Ipsum is simply dummy text of the printing
+                    standard Lorem Ipsum is simply dummy text of the printing
                     typesetting industry.
                   </p>
                   <p className="text-[12px] lg:text-sm ff_inter text-white mt-5 lg:mt-[30px]">
-                    Lorem Ipsum is simply dummy text of the printing and
+                    Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div className="flex items-center mt-4  gap-[10px] lg:gap-[20px]">
@@ -107,12 +116,12 @@ export default function Services() {
                       <path
                         d="M1 5.5L9 14L22 1"
                         stroke="white"
-                        stroke-width="2.5"
+                        strokeWidth="2.5"
                       />
                     </svg>
 
                     <p className="text-sm ff_inter text-white ">
-                      Lorem Ipsum is simply dummy text of the printing and
+                      Lorem Ipsum is simply dummy text of the printing and
                     </p>
                   </div>
                   <div className="flex items-center mt-5  gap-[10px] lg:gap-[20px]">
@@ -126,12 +135,12 @@ export default function Services() {
                       <path
                         d="M1 5.5L9 14L22 1"
                         stroke="white"
-                        stroke-width="2.5"
+                        strokeWidth="2.5"
                       />
                     </svg>
 
                     <p className="text-sm ff_inter text-white ">
-                      Lorem Ipsum is simply dummy text of the printing and
+                      Lorem Ipsum is simply dummy text of the printing and
                     </p>
                   </div>
                 </div>
@@ -175,9 +184,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -188,9 +197,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -201,9 +210,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -214,9 +223,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -265,7 +274,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -286,7 +295,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -307,7 +316,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -328,7 +337,7 @@ export default function Services() {
               <div className="w-2 h-2 bg-[#EE0000] rounded-[50%]"></div>{" "}
               <p className=" text-[16px] lg:text-xl ff_inter ">Our Services</p>
             </div>
-            <h2 className="font_outfit text-2xl text-[#EE0000] lg:text-5xl font-medium text-center  mt-3 lg:mt-5">
+            <h2 className="ff_outfit text-2xl text-[#EE0000] lg:text-5xl font-medium text-center  mt-3 lg:mt-5">
               Protect Your Space with the power of
               <span className="block mt-2">cybersafe</span>
             </h2>
@@ -373,10 +382,10 @@ export default function Services() {
                           fill="black"
                         />
                       </svg>
-                      <h2 className="mt-3 lg:mt-[30px] text-center text-black text-base lg:text-xl font-normal font_outfit">
+                      <h2 className="mt-3 lg:mt-[30px] text-center text-black text-base lg:text-xl font-normal ff_outfit">
                         {item.title}
                       </h2>
-                      <p className="mt-3 lg:mt-[30px] font_inter text-[10px] lg:text-sm font-normal text-[#00000099]">
+                      <p className="mt-3 lg:mt-[30px] ff_inter text-[10px] lg:text-sm font-normal text-[#00000099]">
                         {item.discription}
                       </p>
                     </div>
@@ -422,7 +431,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -443,7 +452,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -464,7 +473,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -658,6 +667,8 @@ export default function Services() {
           </div>
         </section>
       </main>
+    <Footer/>
+
     </>
   );
 }
