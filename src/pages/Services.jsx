@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+
 import Man from "../assets/Images/Png/Man.png";
 import { cyberSafe } from "../Components/Common/Helper";
 import Slider from "react-slick";
@@ -7,6 +8,7 @@ import Trusted from "../assets/Images/Png/Trusted.png";
 import Cybersecurity from "../assets/Images/Png/Cybersecurity.png";
 import SubHeader from "../Components/Common/SubHeader";
 import Header from "../Components/Common/Header";
+import Footer from "../Components/Common/Footer";
 
 export default function Services() {
   const settings = {
@@ -94,13 +96,13 @@ export default function Services() {
                     Service Overview
                   </p>
                   <p className="text-[12px] lg:text-sm ff_inter text-white mt-5 ">
-                    Lorem Ipsum is simply dummy text of the printing and
+                    Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
-                    standard Lorem Ipsum is simply dummy text of the printing
+                    standard Lorem Ipsum is simply dummy text of the printing
                     typesetting industry.
                   </p>
                   <p className="text-[12px] lg:text-sm ff_inter text-white mt-5 lg:mt-[30px]">
-                    Lorem Ipsum is simply dummy text of the printing and
+                    Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                   <div className="flex items-center mt-4  gap-[10px] lg:gap-[20px]">
@@ -114,12 +116,12 @@ export default function Services() {
                       <path
                         d="M1 5.5L9 14L22 1"
                         stroke="white"
-                        stroke-width="2.5"
+                        strokeWidth="2.5"
                       />
                     </svg>
 
                     <p className="text-sm ff_inter text-white ">
-                      Lorem Ipsum is simply dummy text of the printing and
+                      Lorem Ipsum is simply dummy text of the printing and
                     </p>
                   </div>
                   <div className="flex items-center mt-5  gap-[10px] lg:gap-[20px]">
@@ -133,12 +135,12 @@ export default function Services() {
                       <path
                         d="M1 5.5L9 14L22 1"
                         stroke="white"
-                        stroke-width="2.5"
+                        strokeWidth="2.5"
                       />
                     </svg>
 
                     <p className="text-sm ff_inter text-white ">
-                      Lorem Ipsum is simply dummy text of the printing and
+                      Lorem Ipsum is simply dummy text of the printing and
                     </p>
                   </div>
                 </div>
@@ -182,9 +184,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -195,9 +197,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -208,9 +210,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -221,9 +223,9 @@ export default function Services() {
                               Monitor Your Network
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
-                              Lorem Ipsum is simply dummy text of the printing
+                              Lorem Ipsum is simply dummy text of the printing
                               and typesetting industry. Lorem Ipsum has been the
-                              industry's standard Lorem Ipsum is simply dummy
+                              industry's standard Lorem Ipsum is simply dummy
                               text of the printing typesetting industry.
                             </p>
                           </div>
@@ -272,7 +274,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -293,7 +295,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -314,7 +316,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -429,7 +431,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -450,7 +452,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -471,7 +473,7 @@ export default function Services() {
                     <path
                       d="M0.927246 5.5L8.92725 14L21.9272 1"
                       stroke="white"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                     />
                   </svg>
 
@@ -665,6 +667,8 @@ export default function Services() {
           </div>
         </section>
       </main>
+    <Footer/>
+
     </>
   );
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import umbrella from "../assets/Images/Png/umbrella.png"
 import msp from "../assets/Images/Png/msp.png"
 import panda from "../assets/Images/Png/panda.png"
