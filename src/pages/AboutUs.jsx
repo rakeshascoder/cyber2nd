@@ -98,7 +98,7 @@ export default function AboutUs() {
               </div>
               <div className="flex items-center mt-4 lg:mt-5 xl:mt-[50px]">
                 <div className=" me-6 sm:me-24 lg:me-[152px]">
-                  <button className="ff_outfit text-sm  sm:text-lg text-white font-normal bg-[#06579C] py-3 px-4 sm:py-[15px] sm:px-[30px] rounded-[10px] hover:bg-[#06569ccf] transition-all">
+                  <button className="ff_outfit text-sm  sm:text-lg text-white font-normal bg-[#EE0000] py-3 px-4 sm:py-[15px] sm:px-[30px] rounded-[10px] hover:bg-[#06569ccf] transition-all">
                     More About Us’
                   </button>
                 </div>
