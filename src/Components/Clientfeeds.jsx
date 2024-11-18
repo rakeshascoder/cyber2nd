@@ -6,7 +6,7 @@ import { Arrowred, Roundedred, Star } from './Common/Icons';
 function Clientfeeds() {
     return (
         <div>
-            <section className='lg:py-[100px] md:py-[50px] py-[40px]'>
+            <section className=' md:py-[50px] py-[40px] '>
                 <div className="max-w-[1360px] px-3 mx-auto container">
                     <p className="text-center font-normal text-[20px] ff_outfit">
                         Our Client’s
@@ -27,7 +27,7 @@ function Clientfeeds() {
                                 key={index}
                                 className="w-full sm:w-[80%] md:w-[45%] lg:w-[30%] px-3"
                             >
-                                <div className="p-5 border border-[#00000033] rounded-es-[20px] rounded-se-[20px]">
+                                <div className="hover:bg-[#EE0000] hover:text-[white] duration-300 p-5 border border-[#00000033] rounded-es-[20px] rounded-se-[20px]">
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center gap-5">
                                             <img

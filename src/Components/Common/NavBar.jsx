@@ -1,59 +1,61 @@
-import  { useEffect, useState } from 'react'
+import React, { useState } from 'react'
+import { Callicon, Facebookicon, Linkedinicon, Locationicons, Messageicon, TwitterIcon, Twittericon } from './Icons'
+import { Link } from 'react-scroll'
 import Contactpopup from '../Contactpopup'
-import Logo from "../../assets/Images/Png/Logo.png";
+
 import hamburger from "../../assets/Images/Png/hamburger.png";
 
-import { Link } from 'react-scroll';
-import { NavLink, useNavigate } from 'react-router-dom';
+import close from "../../assets/Images/Png/close.png";
 
+import Logo from "../../assets/Images/Png/Logo.png";
 
-
-const Header = () => {
+export default function NavBar() {
+    const [isNavbaropen, setIsNavbaropen] = useState(false);
+    const [popup, setPopup] = useState(false);
+    function navOpen() {
+        setIsNavbaropen(!isNavbaropen);
+      }
+      function contactButton(item) {
+        if (item === "Contact us") {
+          setPopup(true);
+        }
+      }
+      const closePopup = () => {
+        setPopup(false);
+      };
     
-  const [isNavbaropen, setIsNavbaropen] = useState(false);
-  const [popup, setPopup] = useState(false);
-  const navigate=useNavigate()
-
-  useEffect(() => {
-    // Add or remove the no-scroll class when popup state changes
-    if (popup) {
-      document.body.classList.add("no-scroll");
-    } else {
-      document.body.classList.remove("no-scroll");
-    }
-
-    // Clean up the class on unmount
-    return () => document.body.classList.remove("no-scroll");
-  }, [popup]);
-
-
-
-  function contactButton(item) {
-    if (item === "Contact us") {
-      setPopup(true);
-    }
-  }
-
-  const closePopup = () => {
-    setPopup(false);
-  };
-
-  if (isNavbaropen) {
-    document.body.classList.add("overflow-hidden");
-  } else {
-    document.body.classList.remove("overflow-hidden");
-  }
-
-
-
-  function navOpen() {
-    setIsNavbaropen(!isNavbaropen);
-  }
   return (
-    <div>
-          <div className="flex flex-wrap items-center justify-between pt-5 ">
-              <Link >
-                <img className="w-[60%] lg:w-auto" src={Logo} alt="Logo" onClick={()=>navigate("/")} />
+    <>
+ 
+         {/* Contact Info & Social Icons */}
+         <div className="flex  md:flex-row items-center justify-between py-4 space-y-4 md:space-y-0">
+            <div className="flex flex-wrap items-center gap-3 text-center md:text-left">
+              <Messageicon/>
+              <p className="text-sm lg:text-base font-normal hidden md:block ff_outfit">
+                cybersecurity@gmail.com
+              </p>
+              <div className="hidden md:block h-[25px] w-[1px] bg-[#EE0000]"></div>
+              <Locationicons />
+              <p className="text-sm lg:text-base font-normal hidden md:block ff_outfit">
+                Jones Street, New York, USA
+              </p>
+              <div className="hidden md:block h-[25px] w-[1px] bg-[#EE0000]"></div>
+              <Callicon />
+              <p className="text-sm lg:text-base font-normal hidden md:block ff_outfit">
+                +91 8295236699
+              </p>
+            </div>
+            <div className="flex items-center !mt-0 gap-3">
+              <Facebookicon />
+              <TwitterIcon />
+              <Linkedinicon />
+            </div>
+          </div>
+          {/* Navigation */}
+          <nav>
+            <div className="flex flex-wrap items-center justify-between border py-4 lg:py-6 shadow-lg rounded-[20px] px-4 lg:px-6">
+              <Link to="/">
+                <img className="w-[60%] lg:w-auto" src={Logo} alt="Logo" />
               </Link>
 
               {/* Overlay */}
@@ -76,23 +78,19 @@ const Header = () => {
                   { name: "Testimonials", id: "/testimonials" },
                 ].map((item) => (
                   <li key={item.name}>
-                     <NavLink
-                to={item.id}
-                className={({ isActive }) =>
-                  `font-normal text-sm lg:text-base cursor-pointer duration-300 ${
-                    isActive
-                      ? "text-[#EE0000]" // Active link color
-                      : "text-black hover:text-[#EE0000]" // Non-active link color with hover
-                  }`
-                }
-                onClick={() => setIsNavbaropen(false)}
-              >
-                {item.name}
-              </NavLink>
+                    <Link
+                      to={item.id}
+                      smooth={true}
+                      duration={1000}
+                      className="font-normal text-sm lg:text-base text-black lg:text-black hover:text-[#EE0000] duration-300 cursor-pointer scroll-smooth active:text-[#EE0000]"
+                      onClick={() => setIsNavbaropen(false)}
+                    >
+                      {item.name}
+                    </Link>
                   </li>
                 ))}
                 <ul className="md:hidden flex flex-col gap-6">
-                  {[ "Contact us"].map((item) => (
+                  {["Get Started", "Contact us"].map((item) => (
                     <li key={item}>
                       <Link
                         className="text-sm lg:text-lg font-normal hover:bg-[#EE0000] duration-300 hover:text-white px-4 py-2 rounded-full border border-[#EE0000] text-black"
@@ -109,7 +107,7 @@ const Header = () => {
               {/* Action Buttons */}
               <div>
                 <ul className="hidden md:flex items-center gap-2">
-                  {[ "Contact us"].map((item) => (
+                  {["Get Started", "Contact us"].map((item) => (
                     <li key={item}>
                       <Link
                         className="text-sm lg:text-lg font-normal hover:bg-[#EE0000] duration-300 hover:text-white px-4 py-2 rounded-full border border-[#EE0000]"
@@ -155,8 +153,8 @@ const Header = () => {
                 )}
               </button>
             </div>
-    </div>
+          </nav>
+     
+    </>
   )
 }
-
-export default Header
