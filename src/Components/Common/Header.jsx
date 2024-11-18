@@ -52,9 +52,9 @@ const Header = () => {
   return (
     <div>
           <div className="flex flex-wrap items-center justify-between pt-5 ">
-              <Link >
-                <img className="w-[60%] lg:w-auto" src={Logo} alt="Logo" onClick={()=>navigate("/")} />
-              </Link>
+            
+                <img className="w-[60%] lg:w-auto cursor-pointer" src={Logo} alt="Logo" onClick={()=>navigate("/")} />
+              
 
               {/* Overlay */}
               {isNavbaropen && (
