@@ -197,7 +197,7 @@ export default function Data() {
                       </p>
                     </div>
                     <div className="lg:max-w-[210px]">
-                      <p className="text-xl font-normal text-[#EE0000] my-3 md:my-6 whitespace-nowrap">
+                      <p className="text-xl font-normal ff_outfit my-3 md:my-6 whitespace-nowrap">
                         {card.title}
                       </p>
                       <p className="font-normal text-sm text-[#00000099] leading-[16px]">
@@ -225,14 +225,14 @@ export default function Data() {
               <div className="sm:w-6/12 lg:w-6/12">
                 <img className="w-full" src={Metting} alt="meeting" />
               </div>
-              <div className="sm:w-7/12 w-10/12 lg:w-5/12 mt-5">
+              <div className="sm:w-11/12 w-10/12 lg:w-5/12 mt-5">
                 <div className="flex items-center">
                   <div className="h-[8px] w-[8px] rounded-full bg-[#EE0000]"></div>
                   <p className="font-normal text-xl ms-2 ff_inter">
                     About Grey Token
                   </p>
                 </div>
-                <p className="text-[#C04000] leading-[35px] sm:leading-[50px] md:leading-[40px] lg:leading-[62px] text-[25px] lg:text-[30px] xl:text-[48px] font-normal mt-[30px] ff_jomolhari">
+                <p className="text-[#EE0000] leading-[35px] sm:leading-[50px] md:leading-[40px] lg:leading-[62px] text-[25px] lg:text-[30px] xl:text-[48px] font-normal mt-[30px] ff_jomolhari">
                   The Comprehensive Solution for Your Need
                 </p>
                 <p className="text-sm font-normal text-[#00000099] my-[30px] ff_inter">
@@ -416,27 +416,7 @@ export default function Data() {
             </div>
 
             <div className="flex justify-between mt-[30px] sm:mt-[100px] md:mt-[100px]   mx-[-12px]  flex-wrap flex-col sm:flex-row">
-              {/* {cardData.map((card) => (
-                <div
-                  key={card.id}
-                  className="w-full  sm:w-6/12 lg:w-4/12 xl:w-3/12 mx-auto mt-6 px-3"
-                >
-                  <div className="card">
-                    <div className="flex items-center">
-                      <div className="h-[8px] w-[8px] rounded-full bg-[#EE0000]"></div>
-                      <p className="text-sm font-normal text-[#00000099] ms-2f ff_inter">
-                        0{card.id}
-                      </p>
-                    </div>
-                    <p className="text-[#EE0000] text-xl font-normal my-6 ff_outfit">
-                      {card.title}
-                    </p>
-                    <p className="font-normal text-sm text-[#00000099] ff_inter">
-                      {card.description}
-                    </p>
-                  </div>
-                </div>
-              ))} */}
+      
               {cardData.map((card) => (
                 <div
                   key={card.id}
@@ -522,13 +502,13 @@ export default function Data() {
                     Virtual comedy workshop. Virtual stands up comedy. Virtual
                     comedy class.
                   </p>
-                  <div className="flex flex-col sm:flex-row items-center  mt-[30px]">
+                  <div className="flex  max-xs:flex-col flex-row gap-2.5 mt-[30px]">
                     <input
                       type="text"
                       placeholder="Entre your E-mail address"
-                      className="ff_outfit mr-[10px]  bg-transparent border xl:py-[12.5px] py-[10px] px-[12px] xl:px-[15px]  w-[70%] border-[#FFFFFF4D] rounded-[10px] text-[#FFFFFF4D] placeholder:text-[#FFFFFF4D] outline-none"
+                      className="ff_outfit bg-transparent border xl:py-[12.5px] py-[10px] px-[12px] xl:px-[15px] max-xs:w-full w-[70%] border-[#FFFFFF4D] rounded-[10px] text-[#FFFFFF4D] placeholder:text-[#FFFFFF4D] outline-none"
                     />
-                    <button className=" mt-3 sm:mt-0 lg:text-[12px] xl:text-base xl:py-[12.5px] py-[10px] px-[12px] xl:px-[15px] bg-[#EE0000] rounded-[10px] text-white ff_outfit">
+                    <button className="text-[12px] xl:text-base xl:py-[12.5px] py-[10px] px-[12px] xl:px-[15px] bg-[#EE0000] rounded-[10px] text-white ff_outfit">
                       Subscribe Now
                     </button>
                   </div>

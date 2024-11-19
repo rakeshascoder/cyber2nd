@@ -2,7 +2,7 @@ import  { useEffect, useState } from 'react'
 import Contactpopup from '../Contactpopup'
 import Logo from "../../assets/Images/Png/Logo.png";
 import hamburger from "../../assets/Images/Png/hamburger.png";
-
+import close from "../../assets/Images/Png/close.png"
 import { Link } from 'react-scroll';
 import { NavLink, useNavigate } from 'react-router-dom';
 
@@ -53,7 +53,7 @@ const Header = () => {
     <div>
           <div className="flex flex-wrap items-center justify-between pt-5 ">
             
-                <img className="w-[60%] lg:w-auto cursor-pointer" src={Logo} alt="Logo" onClick={()=>navigate("/")} />
+                <img className="w-[40%] lg:w-auto cursor-pointer" src={Logo} alt="Logo" onClick={()=>navigate("/")} />
               
 
               {/* Overlay */}
@@ -128,12 +128,12 @@ const Header = () => {
                     onClick={closePopup}
                   >
                     <div
-                      className="bg-white p-4 sm:p-6 rounded-lg max-w-lg w-[90%] relative"
+                      className="  relative"
                       onClick={(e) => e.stopPropagation()}
                     >
                    <Contactpopup/>
                       <button
-                        className="absolute top-[-2px] z-40 right-2 text-2xl"
+                        className="absolute top-[30px] z-40 right-[40px] text-2xl"
                         onClick={closePopup}
                       >
                         &times;
