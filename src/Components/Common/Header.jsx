@@ -72,8 +72,8 @@ const Header = () => {
                   { name: "Home", id: "/" },
                   { name: "About us", id: "/about-us" },
                   { name: "Services", id: "/services" },
-                  { name: "Clients", id: "/clients" },
-                  { name: "Testimonials", id: "/testimonials" },
+                  // { name: "Clients", id: "/clients" },
+                  // { name: "Testimonials", id: "/testimonials" },
                 ].map((item) => (
                   <li key={item.name}>
                      <NavLink
