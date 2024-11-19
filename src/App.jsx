@@ -8,7 +8,8 @@ import Services from './pages/Services'
 import AboutUs from './pages/AboutUs'
 import Testimonials from './pages/Testimonials';
 import OurClients from './pages/OurClients';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
 return(
   <>

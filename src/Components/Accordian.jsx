@@ -24,10 +24,10 @@ export default function Accordian() {
                             onClick={() => handleOpen(1)}
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
-                            <span className="text-[20px] lg:text-2xl me-2 lg:me-5 ">
+                            <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
                                 {renderIcon(1)}
                             </span>
-                            Frequently Asked Questions?
+                            Frequently Asked Questions?</div>
                         </AccordionSummary>
                         <AccordionDetails className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
                             Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
@@ -44,10 +44,10 @@ export default function Accordian() {
 
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
-                            <span className="text-[20px] lg:text-2xl me-2 lg:me-5 ">
-                                {renderIcon(2)}
+                               <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
+                                {renderIcon(1)}
                             </span>
-                            Frequently Asked Questions?
+                            Frequently Asked Questions?</div>
                         </AccordionSummary>
                         <AccordionDetails className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7 ff_inter">
                             Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
@@ -67,10 +67,10 @@ export default function Accordian() {
 
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
-                            <span className="text-[20px] lg:text-2xl me-2  lg:me-5 ">
-                                {renderIcon(3)}
+                               <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
+                                {renderIcon(1)}
                             </span>
-                            Frequently Asked Questions?
+                            Frequently Asked Questions?</div>
                         </AccordionSummary>
                         <AccordionDetails className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
                             Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
@@ -87,10 +87,10 @@ export default function Accordian() {
 
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
-                            <span className="text-[20px] lg:text-2xl me-2 lg:me-5">
-                                {renderIcon(4)}
+                               <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
+                                {renderIcon(1)}
                             </span>
-                            Frequently Asked Questions?
+                            Frequently Asked Questions?</div>
                         </AccordionSummary>
                         <AccordionDetails className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7 ff_inter">
                             Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
@@ -106,10 +106,10 @@ export default function Accordian() {
 
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
-                            <span className="text-[20px] lg:text-2xl me-2  lg:me-5 ">
-                                {renderIcon(5)}
+                               <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
+                                {renderIcon(1)}
                             </span>
-                            Frequently Asked Questions?
+                            Frequently Asked Questions?</div>
                         </AccordionSummary>
                         <AccordionDetails className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7 ff_inter">
                             Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim

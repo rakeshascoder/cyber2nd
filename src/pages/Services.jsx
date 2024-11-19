@@ -90,18 +90,20 @@ export default function Services() {
         <section className="py-[50px] lg:py-[100px] overflow-x-hidden">
           <div className="container mx-auto px-2 lg:px-4 lg:max-w-[1360px]">
             <div className="flex  justify-between -mx-3  flex-col-reverse xl:flex-row">
-              <div className="lg:w-9/12 mx-auto xl:w-[35%]  px-3 lg:px-4 mt-5">
-                <div className="bg-[#ee0000] py-3 lg:py-5 px-4 lg:px-[30px] rounded-[20px] shadow-lg">
+              <div className="lg:w-9/12 mx-auto xl:w-[36%]  px-3 lg:px-4 mt-5">
+                <div className="bg-[#ee0000] py-3 lg:py-5 px-4 lg:px-[30px] rounded-[20px] shadow-lg relative">
+                  <div className="bg-white h-[55px] w-[55px] rounded-[100%] opacity-[35%] absolute left-[15px] top-[10px]"></div>
+                  <div className="bg-white h-[115px] w-[115px] rounded-[100%] opacity-[40%] absolute bottom-[-40px] right-[-50px] "></div>
                   <p className="text-[18px] lg:text-[22px] text-white ff_outfit">
                     Service Overview
                   </p>
-                  <p className="text-[12px] lg:text-sm ff_inter text-white mt-5 ">
+                  <p className="text-[12px] lg:text-sm ff_inter text-white mt-5  ">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard Lorem Ipsum is simply dummy text of the printing
                     typesetting industry.
                   </p>
-                  <p className="text-[12px] lg:text-sm ff_inter text-white mt-5 lg:mt-[30px]">
+                  <p className="text-[12px] lg:text-sm ff_inter text-white mt-5 lg:mt-[30px] relative ">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
@@ -149,7 +151,7 @@ export default function Services() {
                 </div>
               </div>
 
-              <div className="lg:w-10/12  mx-auto  xl:w-8/12 px-3 ">
+              <div className="lg:w-10/12  mx-auto  xl:w-7/12 px-3 ">
                 <div>
                   <div className="flex items-center gap-[10px] mt-5">
                     <p className=" text-[16px] lg:text-xl ff_inter text-[#EE0000]">
@@ -194,7 +196,7 @@ export default function Services() {
                         <div className="w-full sm:w-6/12 px-4 mt-5 xl:mt-0">
                           <div className="border  border-[#EE0000] py-4 px-5 lg:px-[30px] rounded-[20px]">
                             <p className="text-lg lg:text-xl ff_outfit">
-                              Monitor Your Network
+                            Cyber Security
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
                               Lorem Ipsum is simply dummy text of the printing
@@ -207,7 +209,7 @@ export default function Services() {
                         <div className="w-full sm:w-6/12 px-4 mt-5">
                           <div className="border  border-[#EE0000] py-4 px-5 lg:px-[30px] rounded-[20px]">
                             <p className="text-lg lg:text-xl ff_outfit">
-                              Monitor Your Network
+                            Cyber Security
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
                               Lorem Ipsum is simply dummy text of the printing
@@ -220,7 +222,7 @@ export default function Services() {
                         <div className="w-full sm:w-6/12 px-4 mt-5">
                           <div className="border  border-[#EE0000] py-4 px-5 lg:px-[30px] rounded-[20px]">
                             <p className="text-lg lg:text-xl ff_outfit">
-                              Monitor Your Network
+                            Cyber Security
                             </p>
                             <p className="text-[12px] lg:text-sm leading-[16px] ff_inter text-[#00000099] mt-4 lg:mt-3">
                               Lorem Ipsum is simply dummy text of the printing
@@ -242,20 +244,20 @@ export default function Services() {
         <section className="CybersecurityPartner_Img py-[50px] lg:py-[100px] overflow-x-hidden ">
           <div className="container mx-auto px-2 lg:px-4 lg:max-w-[1360px]">
             <div className="flex  justify-between -mx-3 flex-col xl:flex-row">
-              <div className="w-full mx-auto md:w-8/12 lg:w-6/12 xl:w-[41.2%] px-3">
-                <div>
-                  <img className="xl:h-[585px] w-full" src={Cybersecurity} alt="Cybersecurity" />
-                </div>
+              <div className="w-full mx-auto md:w-8/12 lg:w-6/12 xl:w-6/12 px-3">
+                
+                  <img className="h-full w-full object-cover rounded-lg" src={Cybersecurity} alt="Cybersecurity" />
+                
               </div>
-              <div className="w-full xl:w-[59.8%] md:w-8/12 mx-auto px-3 mt-5 xl:mt-0">
+              <div className="w-full xl:w-6/12 md:w-11/12 mx-auto px-3 mt-5 xl:mt-0 ">
                 <div className="flex items-center justify-center xl:justify-start  gap-[10px]">
-                  <div className="w-2 h-2 bg-[#EE0000] rounded-[50%]"></div>{" "}
-                  <p className=" text-[16px] xl:text-xl ff_inter text-[#ee0000]">
-                    Our Services
+                  
+                  <p className=" text-[20px] xl:text-xl ff_inter text-white ">
+                  Trusted Cybersecurity Partner
                   </p>
                 </div>
-                <p className="text-[25px] xl:text-[48px] text-center xl:text-start text-white mt-[25px] ff_jomolhari xl:leading-[62px]">
-                  With 15 Years of Experience And A Team of Dedication Experts
+                <p className="text-[25px] xl:text-[48px] text-center xl:text-start text-white mt-[25px] ff_inter xl:leading-[62px]">
+                  With <span className="text-[#EE0000]">15 Years</span> of Experience And A Team of Dedication Experts
                 </p>
                 <p className="text-[12px] xl:text-sm text-center ff_inter mt-[25px] xl:text-start text-white leading-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer placerat. Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer placerat. 
@@ -263,7 +265,7 @@ export default function Services() {
                 <p className="text-[12px] xl:text-sm text-center xl:text-start ff_inter mt-[25px] text-white leading-[16px]">
                 Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra egestas amet sed arcu eu. Faucibus enim potenti viverra a auctor quis ipsum integer placerat. Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In volutpat placerat urna consectetur sollicitudin maecenas viverra. Viverra  
                 </p>
-                <div className="flex items-center gap-5 mt-[25px]">
+                <div className="flex items-center gap-5 mt-[25px] justify-center">
                   <svg
                     width="23"
                     height="16"
@@ -284,7 +286,7 @@ export default function Services() {
                   </p>
 
                 </div>
-                <div className="flex items-center gap-5 mt-[25px]">
+                <div className="flex items-center gap-5 mt-[25px] justify-center">
                   <svg
                     width="23"
                     height="16"
@@ -305,7 +307,7 @@ export default function Services() {
                   </p>
 
                 </div>
-                <div className="flex items-center gap-5 mt-[25px]">
+                <div className="flex items-center gap-5 mt-[25px] justify-center">
                   <svg
                     width="23"
                     height="16"
@@ -337,7 +339,7 @@ export default function Services() {
               <div className="w-2 h-2 bg-[#EE0000] rounded-[50%]"></div>{" "}
               <p className=" text-[16px] lg:text-xl ff_inter ">Our Services</p>
             </div>
-            <h2 className="ff_outfit text-2xl text-[#EE0000] lg:text-5xl font-medium text-center  mt-3 lg:mt-5">
+            <h2 className="ff_jomolhari text-2xl leading-[62px] text-[#EE0000] lg:text-5xl font-normal text-center  mt-3 lg:mt-5">
               Protect Your Space with the power of
               <span className="block mt-2">cybersafe</span>
             </h2>
@@ -348,7 +350,7 @@ export default function Services() {
                     key={index}
                     className="w-11/12 mx-auto sm:w-6/12 md:w-4/12 px-3 mt-4 lg:mt-[30px]"
                   >
-                    <div className="border-[0.5px] border-[#0000004D] py-5 px-4 xl:px-[30px] rounded-[20px] cursor-pointer ourServie_hover transition-all">
+                    <div className="border-[0.5px] border-[#0000004D] py-5 px-4 xl:px-[30px] rounded-[20px] cursor-pointer ourServie_hover transition-all hover:border-[#EE0000]">
                       <svg
                         className="mx-auto"
                         width="70"

@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 
 const Footer = () => {
@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="max-w-[1360px] px-3 mx-auto container">
             <div className="flex flex-row flex-wrap  lg:justify-around xl:justify-between justify-around lg:pb-[100px] md:pb-[60px] pb-[40px]">
               <div className=" lg:w-3/12 md:w-5/12 w-11/12 px-3 text-center md:text-start ">
-                <p className="text-white font_jacques font-normal text-[24px] leading-[31px] cursor-pointertext-white ff_Jacques_Francois">
+                <Link className="text-white font_jacques font-normal text-[24px] leading-[31px] cursor-pointertext-white ff_Jacques_Francois" to="/" >
                   Grey Token
-                </p>
+                </Link>
                 <p className="opacity-[60%] text-white ff_inter text-[14px] font-normal leading-[16px] mt-[30px] text-[#00000099]">
                   Cybersecurity is crucial in today's digital age, where many
                   individuals and organizations store a significant amount of
@@ -171,8 +171,8 @@ const Footer = () => {
                 </p>
                 <input
                   type="text"
-                  placeholder="Entre your E-mail address"
-                  className=" mt-[20px] mr-[10px]  bg-transparent border py-[8px] px-[15px] w-[100%] border-white rounded-[108px] text-white placeholder:text-white outline-none text-sm"
+                  placeholder="Enter your email "
+                  className=" mt-[20px] mr-[10px]  bg-transparent border py-[8px] px-[15px] w-[100%] border-white rounded-[108px] text-white placeholder:text-white outline-none text-sm placeholder:text-[13px]"
                 />
                 <button className="mt-4 bg-[#EE0000] text-white py-2 px-4 lg:py-2 lg:px-5 font-normal text-sm lg:text-base rounded-[50px]">
                   Subsribe

@@ -6,7 +6,7 @@ function Contactpopup() {
   };
   return (
     <div className="flex items-center justify-center relative z-30">
-      <div className="bg-white rounded-2xl w-[full] max-w-2xl max-h-[100vh] sm:max-h-[90vh] overflow-x-scroll">
+      <div className="bg-white rounded-2xl  !max-w-[772px] p-[50px] overflow-x-scroll mx-2">
         <div className="text-center mb-1 sm:mb-5">
           <div className="flex items-center justify-center">
             <div className="h-2 w-2 rounded-full bg-red-600"></div>

@@ -281,39 +281,44 @@ export function Star() {
 
 export function Arrowred() {
   return (
-    <svg
-      width="14"
-      height="20"
-      viewBox="0 0 14 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M0.556644 11.1665L10.1569 19.4978C10.8194 20.0728 11.804 20.0728 12.4666 19.4978C13.2761 18.7953 13.2761 17.5388 12.4666 16.8363L4.58908 10L12.4666 3.16372C13.2761 2.46121 13.2761 1.20472 12.4666 0.502216C11.804 -0.0727652 10.8194 -0.0727655 10.1569 0.502216L0.556644 8.83352C0.200226 9.14292 0 9.5625 0 10C0 10.4375 0.200226 10.8571 0.556644 11.1665Z"
-        fill="#EE0000"
-      />
-    </svg>
+    <div className=" group w-10 h-10 rounded-full bg-white flex items-center justify-center transition-all duration-300 hover:bg-[#EE0000]">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 16 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="transition-all duration-300 fill-[#EE0000] group-hover:fill-white"
+      >
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M4.4666 0.502216C5.12916 -0.0727652 6.11378 -0.0727655 6.77634 0.502216L14.6566 7.50222C15.0668 7.85709 15.0668 8.56291 14.6566 8.91778L6.77634 15.9178C6.11378 16.4928 5.12916 16.4928 4.4666 15.9178C3.90406 15.3388 3.90406 14.2812 4.4666 13.7022L10.8662 8.00001L4.4666 2.2978C3.90406 1.71878 3.90406 0.661197 4.4666 0.502216Z"
+        />
+      </svg>
+    </div>
   );
 }
 
 export function Roundedred() {
   return (
-    <svg
-      width="40"
-      height="40"
-      viewBox="0 0 40 40"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect width="40" height="40" rx="20" fill="#EE0000" />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M26.4434 21.1665L16.8431 29.4978C16.1806 30.0728 15.196 30.0728 14.5334 29.4978C13.7239 28.7953 13.7239 27.5388 14.5334 26.8363L22.4109 20L14.5334 13.1637C13.7239 12.4612 13.7239 11.2047 14.5334 10.5022C15.196 9.92723 16.1806 9.92723 16.8431 10.5022L26.4434 18.8335C26.7998 19.1429 27 19.5625 27 20C27 20.4375 26.7998 20.8571 26.4434 21.1665Z"
-        fill="white"
-      />
-    </svg>
+    <div className="group w-10 h-10 rounded-full bg-white flex items-center justify-center transition-all duration-300 hover:bg-[#EE0000]">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 16 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="transition-all duration-300 fill-[#EE0000] group-hover:fill-white"
+      >
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M11.5334 15.4978C10.8708 16.0728 9.88616 16.0728 9.2236 15.4978L1.34342 8.49778C0.933194 8.14291 0.933194 7.43709 1.34342 7.08222L9.2236 0.0822167C9.88616 -0.492765 10.8708 -0.492765 11.5334 0.0822167C12.0959 0.661236 12.0959 1.71882 11.5334 2.29784L5.1338 8.00001L11.5334 13.7022C12.0959 14.2812 12.0959 15.3388 11.5334 15.4978Z"
+        />
+      </svg>
+    </div>
   );
 }
+
+
