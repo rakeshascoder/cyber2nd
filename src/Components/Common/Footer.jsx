@@ -137,8 +137,8 @@ const Footer = () => {
                      { name: "Home", id: "/" },
                      { name: "About us", id: "/about-us" },
                      { name: "Services", id: "/services" },
-                     { name: "Clients", id: "/clients" },
-                     { name: "Testimonials", id: "/testimonials" },
+                     // { name: "Clients", id: "/clients" },
+                     // { name: "Testimonials", id: "/testimonials" },
                   ].map((item, index) => (
                     <li
                       className={`list-none leading-[16px] ff_inter hover:translate-x-[20px] duration-500 ${index === 0 ? "mt-[30px]" : "mt-[20px]"
