@@ -20,8 +20,8 @@ import Clientfeeds from "../Components/Clientfeeds";
 export default function AboutUs() {
   return (
     <>
-      <div className="bg-about_bg  pt-5  pb-[50px] md:pb-[70px] lg:pb-[100px]">
-        <div className="container mx-auto px-2 lg:px-4 lg:max-w-[1360px]">
+      <div className="bg-about_bg bg-fixed  pt-5  pb-[50px] md:pb-[70px] lg:pb-[100px]">
+        <div className="container mx-auto px-2 lg:px-4 lg:max-w-[1360px] ">
           <div className="shadow-lg rounded-[20px] border  px-4 lg:px-6 bg-white py-4 lg:py-6">
             {" "}
             <SubHeader />

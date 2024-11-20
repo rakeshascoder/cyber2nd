@@ -321,4 +321,14 @@ export function Roundedred() {
   );
 }
 
+export function Doubletick(){
+  return(
+    <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 4.41999L7.32021 11.1352L17.5906 0.864868" stroke="white" stroke-width="1.97507"/>
+<path d="M6.59058 4.41999L12.9108 11.1352L23.1811 0.864868" stroke="white" stroke-width="1.97507"/>
+</svg>
+
+  )
+}
+
 

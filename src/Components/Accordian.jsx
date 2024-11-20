@@ -45,7 +45,7 @@ export default function Accordian() {
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
                                <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
-                                {renderIcon(1)}
+                                {renderIcon(2)}
                             </span>
                             Frequently Asked Questions?</div>
                         </AccordionSummary>
@@ -68,7 +68,7 @@ export default function Accordian() {
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
                                <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
-                                {renderIcon(1)}
+                                {renderIcon(3)}
                             </span>
                             Frequently Asked Questions?</div>
                         </AccordionSummary>
@@ -88,7 +88,7 @@ export default function Accordian() {
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
                                <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
-                                {renderIcon(1)}
+                                {renderIcon(4)}
                             </span>
                             Frequently Asked Questions?</div>
                         </AccordionSummary>
@@ -107,7 +107,7 @@ export default function Accordian() {
                             className="border-b-0 transition-colors flex justify-start items-center w-full text-left text-[14px] lg:text-[16px] font-medium"
                         >
                                <div className="flex items-center"><span className="text-[20px] lg:text-2xl me-2 lg:me-5 mb-2">
-                                {renderIcon(1)}
+                                {renderIcon(5)}
                             </span>
                             Frequently Asked Questions?</div>
                         </AccordionSummary>

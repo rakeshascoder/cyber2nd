@@ -6,7 +6,7 @@ import { Arrowred, Roundedred, Star } from './Common/Icons';
 import { useRef } from "react";
 
 function Clientfeeds() {
-    const btnRef=useRef(null)
+    const btnRef = useRef(null)
     var settings = {
         dots: false,
         infinite: true,
@@ -15,43 +15,43 @@ function Clientfeeds() {
         slidesToScroll: 1,
         responsive: [
             {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-              },
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
             },
             {
-              breakpoint: 1008,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-              },
+                breakpoint: 1008,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
             },
             {
-              breakpoint: 800,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-              },
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
             },
             {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              },
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
             },
             {
-              breakpoint: 400,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              },
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
             },
-          ],
-        }
-      
+        ],
+    }
+
     return (
         <div>
             <section className=' md:py-[50px] py-[40px] '>
@@ -70,9 +70,9 @@ function Clientfeeds() {
                     </p>
 
                     {/* <div className="flex flex-wrap justify-center gap-x-5 gap-y-10 mt-[50px]"> */}
-                        <Slider ref={btnRef} {...settings}>
-                           
-                            {[...Array(6)].map((_, index) => (
+                    <Slider ref={btnRef} {...settings}>
+
+                        {[...Array(6)].map((_, index) => (
                             <div
                                 key={index}
                                 className="w-full px-3"
@@ -108,50 +108,20 @@ function Clientfeeds() {
                                         Read More
                                     </button>
                                 </div>
-                                <div className="hover:bg-[#EE0000] hover:text-[white] duration-300 p-5 border border-[#00000033] rounded-es-[20px] rounded-se-[20px] mt-[50px]">
-                                    <div className="flex items-center justify-between">
-                                        <div className="flex items-center gap-5">
-                                            <img
-                                                src={BlackMan}
-                                                alt="BlackMan"
-                                                className="w-10 h-10 rounded-full"
-                                            />
-                                            <div>
-                                                <p className="ff_inter text-sm font-normal">
-                                                    John doe
-                                                </p>
-                                                <p className="ff_inter text-sm font-normal">
-                                                    STSM (CEO)
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <Star />
-                                    </div>
-                                    <p className="ff_inter mt-[15px] text-sm">
-                                        Lorem ipsum dolor sit amet consectetur. Imperdiet
-                                        vulputate enim tortor nulla facilisi magna. Aenean ac
-                                        commodo nisi vitae. In volutpat placerat urna
-                                        consectetur sollicitudin maecenas viverra. Viverra
-                                        egestas amet sed arcu eu. Faucibus enim potenti
-                                        viverra a auctor quis ipsum integer placerat.
-                                    </p>
-                                    <button className="text-[#C04000] text-sm font-medium mt-[15px]">
-                                        Read More
-                                    </button>
-                                </div>
+                                
                             </div>
                         ))}
-                           
-                           
-                        </Slider>
+
+
+                    </Slider>
                     {/* </div> */}
 
-                        
-                    <div className='flex items-center justify-center gap-[50px] mt-[50px]'>
-                    <span onClick={()=>btnRef.current.slickPrev()} className="text-red-600 hover:text-red-800">   <Arrowred /></span> 
-                    <span onClick={()=>btnRef.current.slickNext()} className="text-red-600 hover:text-red-800">   <Roundedred /></span> 
 
-                       
+                    <div className='flex items-center justify-center gap-[50px] mt-[50px]'>
+                        <span onClick={() => btnRef.current.slickPrev()} className="text-red-600 hover:text-red-800">   <Roundedred/></span>
+                        <span onClick={() => btnRef.current.slickNext()} className="text-red-600 hover:text-red-800">   <Arrowred /></span>
+
+
 
 
                     </div>
