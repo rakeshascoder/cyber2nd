@@ -355,6 +355,7 @@ export default function Services() {
                     className="w-11/12 mx-auto sm:w-6/12 md:w-4/12 px-3 mt-4 lg:mt-[30px]"
                   >
                     <div className="border-[0.5px] border-[#0000004D] py-5 px-4 xl:px-[30px] rounded-[20px] cursor-pointer ourServie_hover transition-all hover:border-[#EE0000]">
+                      
                       <svg
                         className="mx-auto"
                         width="70"
