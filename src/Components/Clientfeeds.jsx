@@ -77,7 +77,7 @@ function Clientfeeds() {
                                 key={index}
                                 className="w-full px-3"
                             >
-                                <div className="hover:bg-[#EE0000] hover:text-[white] duration-300 p-5 border border-[#00000033] rounded-es-[20px] rounded-se-[20px] mt-[50px]">
+                                <div className="hover:bg-[#EE0000] group hover:text-[white] duration-300 p-5 border border-[#00000033] rounded-es-[20px] rounded-se-[20px] mt-[50px]">
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center gap-5">
                                             <img
@@ -104,7 +104,7 @@ function Clientfeeds() {
                                         egestas amet sed arcu eu. Faucibus enim potenti
                                         viverra a auctor quis ipsum integer placerat.
                                     </p>
-                                    <button className="text-[#C04000] text-sm font-medium mt-[15px]">
+                                    <button className="text-[#EE0000] group-hover:text-white  text-sm font-medium mt-[15px]">
                                         Read More
                                     </button>
                                 </div>

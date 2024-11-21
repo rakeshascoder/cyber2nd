@@ -108,6 +108,16 @@ height: 100%;
   }
 
 
+  .css-1808mag-MuiPaper-root-MuiAccordion-root::before {
+   
+    opacity: 0 !important;
+     
+    
+} 
+  
+
+
+
 .Services_hero_img{
     background-image: url("./assets/Images/Png/ServicesBgimg.png");
 }

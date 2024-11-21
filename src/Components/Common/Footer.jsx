@@ -3,6 +3,12 @@ import { Link, NavLink } from "react-router-dom"
 
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div>
           <footer>
@@ -149,7 +155,8 @@ const Footer = () => {
                         to={item.id}
                         smooth={true}
                         duration={1000}
-                        className="font-normal text-[14px] text-white duration-300 cursor-pointer scroll-smooth"
+                        className="scroll font-normal text-[14px] text-white duration-300 cursor-pointer scroll-smooth"
+                        onClick={scrollToTop}
                       >
                         {item.name}
                       </Link>
@@ -185,7 +192,7 @@ const Footer = () => {
           <div className="max-w-[1360px] px-3 mx-auto container">
             <div className="flex flex-col sm:flex-row justify-between items-center">
               <p className="py-[20px] text-sm ff_outfit font-normal text-white text-center sm:text-start">
-                ©2024 Hexabirds Private Limited. All rights reserved.
+                ©Grey Tokens All rights reserved.
               </p>
               <p className="ff_outfit text-base font-normal text-white">
                 Designed & Developed By{" "}

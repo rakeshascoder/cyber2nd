@@ -1,3 +1,5 @@
+import { Icon1 } from "./Icons";
+
 export const value = [
     {
       id: 1,
@@ -30,11 +32,13 @@ export const value = [
       title: "Cyber Security",
       discription:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.",
+      
     },
     {
       title: "Data Protection",
       discription:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing typesetting industry.",
+    
     },
     {
       title: "Data Privacy",
